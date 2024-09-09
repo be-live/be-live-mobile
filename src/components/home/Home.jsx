@@ -1,10 +1,14 @@
-import { Text, View } from "react-native";
+import { ScrollView, View } from "react-native";
+
+import Memories from "./memories/Memories";
 
 const Home = () => {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <ScrollView>
+      <View>
+        <Memories />
+      </View>
+    </ScrollView>
   );
 };
 
