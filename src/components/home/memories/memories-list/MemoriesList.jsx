@@ -20,12 +20,7 @@ const MemoriesList = () => {
       >
         {memoriesData &&
           memoriesData.map((item) => (
-            <MemoriesListItem
-              key={item.id}
-              item={item}
-              feelingsId={feelingsId}
-              setFeelingsId={setFeelingsId}
-            />
+            <MemoriesListItem key={item.id} item={item} />
           ))}
       </FeelingsContext.Provider>
     </View>
