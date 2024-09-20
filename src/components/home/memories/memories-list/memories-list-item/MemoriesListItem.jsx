@@ -1,4 +1,4 @@
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import { useContext } from "react";
 import { FeelingsContext } from "../MemoriesList";
 
@@ -23,6 +23,8 @@ const MemoriesListItem = ({
         location={location}
         rated_feelings={rated_feelings}
       />
+
+      <Text>Checking</Text>
 
       {feelingsId === id && <FeelingsList item={item} />}
     </View>
