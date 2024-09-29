@@ -25,8 +25,6 @@ const MemoriesListItem = ({
       />
 
       <Text>Checking Something</Text>
-      <Text>Checking Something</Text>
-      <Text>Checking Something</Text>
 
       {feelingsId === id && <FeelingsList item={item} />}
     </View>
